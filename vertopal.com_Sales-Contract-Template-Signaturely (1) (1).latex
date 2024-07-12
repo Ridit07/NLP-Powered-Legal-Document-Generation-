@@ -1,0 +1,208 @@
+\documentclass[]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{\usepackage[]{microtype}\UseMicrotypeSet[protrusion]{basicmath}}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{\IfFileExists{parskip.sty}{\usepackage{parskip}}{\setlength{\parindent}{0pt}\setlength{\parskip}{6pt plus 2pt minus 1pt}}}{\KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage[normalem]{ulem}
+\setlength{\emergencystretch}{3em}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen}
+\ifLuaTeX
+  \usepackage{selnolig}
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{}
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\textbf{SALES CONTRACT}
+
+\textbf{\uline{PARTIES}}
+
+\begin{itemize}
+\item
+  This Sales Contract (hereinafter referred to as the \textbf{``Contract''}) is entered into on \textless{}\textbf{Date}\textgreater{} by \textless{}\textbf{Seller's name}\textgreater{} and between \textless{}\textbf{Customer's name}\textgreater{}, with an address of \textless{}\textbf{address of the seller}\textgreater{}, (hereinafter referred to as the \textbf{``Seller''}) and, with an address of \textless{}\textbf{address of the customer}\textgreater{}, (hereinafter referred to as the \textbf{``Customer''}) (collectively referred to as the \textbf{``Parties''}).
+\end{itemize}
+
+\textbf{\uline{GOODS AND PRICE}}
+
+\begin{itemize}
+\item
+  The goods that the Seller is selling to the Customer are enlisted below with their quantities (hereinafter referred to as the ``\textbf{Goods}'').
+\end{itemize}
+
+\begin{longtable}[]{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2574}}>{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2757}}>{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2412}}>{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2257}}@{}}
+\toprule()
+\endhead
+Good & Quantity & Price per unit & Total Price \\
+& & & \\
+& & & \\
+& & & \\
+& & & \\
+& & & \\
+& & & \\
+& & & \\
+\bottomrule()
+\end{longtable}
+
+\textbf{\uline{PRICE AND PAYMENTS}}
+
+\begin{itemize}
+\item
+  The Seller hereby agrees to sell the Goods to the Customer for an amount of \textless{}\textbf{Amount}\textgreater{}.
+\item
+  The Seller will provide an invoice to the Customer at the time of the delivery.
+\item
+  All invoices are to be paid in full at least within thirty (30) days.
+\item
+  Any balances not paid within thirty (30) days will be subject to a five percent (5\%) late payment penalty.
+\end{itemize}
+
+\textbf{\uline{DELIVERY AND SHIPPING}}
+
+\begin{itemize}
+\item
+  The delivery of the goods (hereinafter referred to as the ``Delivery'') will be at the location \textless{}\textbf{Delivery Address}\textgreater{}
+\item
+  The shipping method will be decided by the \textless{}\textbf{Seller's Name}\textgreater{} and \textless{}\textbf{Buyer's Name}\textgreater{} will be responsible for the costs of the shipment.
+\end{itemize}
+
+\textbf{\uline{WARRANTIES}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/disclaimer-of-warranties}{Except as} expressly set forth in this Agreement, the Parties acknowledge and agree that the Goods are provided as is.
+\item
+  \href{https://www.lawinsider.com/clause/disclaimer-of-warranties}{Except for} the express warranties set forth herein, neither party makes any representations or grants any warranties, express or implied, either in fact or by operation of law, by statute or otherwise, and each party specifically disclaims any other warranties, whether written or oral, or express or implied, including any warranty of quality, merchantability, or fitness for a particular use or purpose or any warranty as to the validity of any patents or the non-infringement of any intellectual property rights of third parties.
+\end{itemize}
+
+\textbf{\uline{INSPECTION}}
+
+\begin{itemize}
+\item
+  Hereby, the Customer acknowledges that it has relied solely on the investigations, examinations, and inspections that the Customer has chosen to make and that the Seller has afforded the Customer the opportunity for full and complete investigations, examinations, and inspections.
+\end{itemize}
+
+\textbf{\uline{RISK OF LOSS AND TITLE}}
+
+\begin{itemize}
+\item
+  The risk of loss or damage for the goods will be on the Seller until the goods pass upon delivery to the Customer or its designee.
+\item
+  The Title of the goods will also remain with the Seller until the goods pass upon delivery to the Customer or its designee.
+\end{itemize}
+
+\textbf{\uline{DELAY OR FAILURE TO PERFORM AND FORCE MAJEURE}}
+
+\begin{itemize}
+\item
+  Under no circumstances will the Seller be held liable to the Customer for any delay that may occur, non-delivery or an arising fault of this Agreement that may be due to any labour dispute, shortage in transportation, delay or shortage of materials to produce the Goods, fires, accidents, Acts of God, or any other causes outside Seller's control. The Seller will notify the Customer immediately upon realization that it will not be able to deliver the Goods as promised. Upon such notice, either Party may terminate this Agreement.
+\end{itemize}
+
+\textbf{\uline{TERMINATION}}
+
+\begin{itemize}
+\item
+  This Agreement may be terminated by either party or both Parties at any instant provided that the terminating party provides a written notice of termination \textless{}\textbf{Days}\textgreater{} days in advance.
+\end{itemize}
+
+\textbf{\uline{LIMITATION OF LIABILITY}}
+
+\begin{itemize}
+\item
+  Under no circumstances will the Seller be liable for any indirect, special, consequential, or punitive damages (including lost profits) arising out of or relating to this Agreement or the transactions it contemplates (whether for breach of contract, tort, negligence, or other form of action).
+\end{itemize}
+
+\textbf{\uline{GOVERNING LAW}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/governing-law}{This Agreement} shall be governed by and construed in accordance with the laws of \textless{}\textbf{Name of the law}\textgreater{}.
+\end{itemize}
+
+\textbf{\uline{AMENDMENTS}}
+
+\begin{itemize}
+\item
+  The Parties agree that any amendments made to this Agreement must be in writing, where they must be signed by both Parties to this Agreement.
+\item
+  Accordingly, any amendments made by the Parties will be applied to this Agreement.
+\end{itemize}
+
+\textbf{\uline{SEVERABILITY}}
+
+\begin{itemize}
+\item
+  In the event that any provision of this Agreement is found to be void and unenforceable by a court of competent jurisdiction, then the remaining provisions will remain in force in accordance with the Parties' intention.
+\end{itemize}
+
+\textbf{\uline{ENTIRE AGREEMENT}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/entire-agreement}{This Agreement} contains the entire agreement and understanding among the Parties hereto with respect to the subject matter hereof, and supersedes all prior agreements, understandings, inducements and conditions, express or implied, oral or written, of any nature whatsoever with respect to the subject matter hereof. The express terms hereof control and supersede any course of performance and/or usage of the trade inconsistent with any of the terms hereof.
+\end{itemize}
+
+\textbf{\uline{FORCE MAJEURE}}
+
+\begin{itemize}
+\item
+  The Seller will not be liable for delays in performance or for non-performance due to unforeseen circumstances or causes beyond the Seller's reasonable control.
+\end{itemize}
+
+\textbf{\uline{SIGNATURE AND DATE}}
+
+\begin{itemize}
+\item
+  The Parties hereby agree to the terms and conditions set forth in this Agreement and such is demonstrated throughout their signatures below:
+\end{itemize}
+
+\begin{longtable}[]{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5022}}>{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4978}}@{}}
+\toprule()
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+CUSTOMER\\
+\strut \\
+Name: \textless{}\textbf{Name of the Customer}\textgreater{}\\
+Signature: \textless{}\textbf{Signature of the Customer}\textgreater{}\\
+Date: \textless{}\textbf{Date}\textgreater{}\strut
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+SELLER\\
+\strut \\
+Name: \textless{}\textbf{Name of the Seller}\textgreater{}\\
+Signature: \textless{}\textbf{Signature of the Seller}\textgreater{}\\
+Date: \textless{}\textbf{Date}\textgreater{}\strut
+\end{minipage} \\
+\bottomrule()
+\end{longtable}
+
+\end{document}

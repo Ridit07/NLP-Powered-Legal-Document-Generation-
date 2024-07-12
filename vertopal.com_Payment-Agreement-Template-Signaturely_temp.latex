@@ -1,0 +1,211 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage[normalem]{ulem}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\textbf{PAYMENT AGREEMENT}
+
+\textbf{\uline{PARTIES}}
+
+\begin{itemize}
+\item
+  This Payment Agreement (hereinafter referred to as the
+  \textbf{``Agreement''}) is entered into on
+  11th September 2024 (the
+  \textbf{``Effective Date''}), by and between
+  Ashi Jain, with an
+  address of unit, street, city, state, country, zipcode (hereinafter referred to as the
+  \textbf{``Debtor''}), and
+  Ridi Jain, with
+  an address of unit, street, city, state, country, zipcode (hereinafter referred to as the
+  \textbf{``Creditor''}) (collectively referred to as the
+  \textbf{``Parties''}).
+\end{itemize}
+
+\textbf{\uline{AGREEMENT}}
+
+\begin{itemize}
+\item
+  The Parties agree that the Debtor is to pay the Creditor an amount of
+  1000000.
+\item
+  The Parties agree to secure the amount of debt by entering into a new
+  agreement where the amount of
+  1000000 mentioned above is to be set
+  into a structured payment agreement according to the terms and
+  conditions provided below.
+\end{itemize}
+
+\textbf{\uline{DEBTOR REPRESENTATION}}
+
+\begin{itemize}
+\item
+  The Debtor warrants as well as represents that the Parties have agreed
+  upon a payment plan to secure the deficiency in a scheduled manner as
+  set forth in this Agreement.
+\end{itemize}
+
+\textbf{\uline{PAYMENT PLAN}}
+
+\begin{itemize}
+\item
+  The Parties agree to establish the payment plan as follows:
+  20 months
+\end{itemize}
+
+\textbf{\uline{DEFAULT}}
+
+\begin{itemize}
+\item
+  In case the Debtor fails to provide the payments as per the payment
+  plans within a reasonable time, the Creditor becomes entitled to
+  declare the remaining amount and the present Interest, if any,
+  immediately due and payable.
+\end{itemize}
+
+\textbf{\uline{GOVERNING LAW}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/governing-law}{This Agreement}
+  shall be governed by and construed in accordance with the laws of
+  state.
+\end{itemize}
+
+\textbf{\uline{SEVERABILITY}}
+
+\begin{itemize}
+\item
+  In an event where any provision of this Agreement is found to be void
+  and unenforceable by a court of competent jurisdiction, then the
+  remaining provisions will remain to be enforced in accordance with the
+  Parties' intention.
+\end{itemize}
+
+\textbf{\uline{DISPUTE RESOLUTION}}
+
+\begin{itemize}
+\item
+  Any dispute or difference whatsoever arising out of or in connection
+  with this Agreement shall be submitted to
+  arbitration in
+  accordance with, and subject to the laws of
+  country.
+\end{itemize}
+
+\textbf{\uline{ENTIRE AGREEMENT}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/entire-agreement}{This
+  Agreement} contains the entire Agreement and understanding among the
+  Parties hereto with respect to the subject matter hereof, and
+  supersedes all prior agreements, understandings, inducements and
+  conditions, express or implied, oral or written, of any nature
+  whatsoever with respect to the subject matter hereof. The express
+  terms hereof control and supersede any course of performance and/or
+  usage of the trade inconsistent with any of the terms hereof.
+\end{itemize}
+
+\textbf{\uline{AMENDMENTS}}
+
+\begin{itemize}
+\item
+  The Parties agree that any amendments made to this Agreement must be
+  in writing where they must be signed by both Parties to this
+  Agreement.
+\item
+  As such, any amendments made by the Parties will be applied to this
+  Agreement.
+\end{itemize}
+
+\textbf{\uline{SIGNATURE AND DATE}}
+
+\begin{itemize}
+\item
+  The Parties hereby agree to the terms and conditions set forth in this
+  Agreement and such is demonstrated throughout by their signatures
+  below:
+\end{itemize}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5022}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4978}}@{}}
+\toprule()
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+CREDITOR\\
+\strut \\
+Name: Ridi Jain\\
+Signature: \textless{}\textbf{Creditor's Signature}\textgreater{}\\
+Date: \textless{}\textbf{Date}\textgreater{}\strut
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+DEBTOR\\
+\strut \\
+Name: Ashi Jain\\
+Signature: \textless{}\textbf{Debtor's Signature}\textgreater{}\\
+Date: \textless{}\textbf{Date}\textgreater{}\strut
+\end{minipage} \\
+\bottomrule()
+\end{longtable}
+
+\end{document}

@@ -1,0 +1,270 @@
+\documentclass[]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{\usepackage[]{microtype}\UseMicrotypeSet[protrusion]{basicmath}}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{\IfFileExists{parskip.sty}{\usepackage{parskip}}{\setlength{\parindent}{0pt}\setlength{\parskip}{6pt plus 2pt minus 1pt}}}{\KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage[normalem]{ulem}
+\setlength{\emergencystretch}{3em}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen}
+\ifLuaTeX
+  \usepackage{selnolig}
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{}
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\textbf{CONSULTING AGREEMENT}
+
+\textbf{\uline{PARTIES}}
+
+\begin{itemize}
+\item
+  This Service Contract Agreement (hereinafter referred to as the
+  \textbf{``Agreement''}) is entered into on 
+  \textbf{\textless{} Effective Date\textgreater,} by 
+  \textbf{\textless{} Consultant's Name\textgreater{}} and between
+  \textless{} \textbf{Client's Name}\textgreater, with
+  an address of \textless{}\textbf{Consultant's Address}\textgreater (hereinafter referred to as the
+  \textbf{``}Consultant's Name\textbf{''}), and , with an
+  address of \textless{}\textbf{Client's Address}\textgreater{}
+  (hereinafter referred to as the \textbf{``Client''}) (collectively
+  referred to as the \textbf{``Parties''}).
+\end{itemize}
+
+\textbf{\uline{CONSIDERATION}}
+
+\begin{itemize}
+\item
+  The Parties agree that the Consultant will provide the services
+  attached hereunder, whereas the Client will in return provide
+  compensation for such services and expertise.
+\end{itemize}
+
+\textbf{\uline{RETAINER}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/retainer-fee}{A fee} of
+  \textless{}\textbf{Retainer Fee}\textgreater{} will be invoiced to the
+  Client by the Consultant on the first day of every month for all the
+  services provided and performed as well as for all the pre-approved
+  expenses incurred the previous month.
+\item
+  The Client is required to pay the invoice
+  within \textless{}\textbf{Number of days}\textgreater{} days upon
+  receiving it.
+\item
+  The Parties agree that the payments are to be made via \textless{} \textbf{Payment Method} \textgreater{} and sent to the following address \textless{}\textbf{Address}\textgreater{}
+\end{itemize}
+
+\textbf{\uline{EXPENSES}}
+
+\begin{itemize}
+\item
+  The Consultant is entitled to a reimbursement for all the reasonable
+  and necessary expenses that have arisen when providing his/her
+  services to the Client.
+\item
+  The Client is required to pre-approve all the expenses/all expenses
+  over \textless{}\textbf{Expense Pre-Approval Threshold Amount}\textgreater. (Choose one of the options)
+\item
+  The Consultant is required to provide a proof and/or receipt for all
+  the expenses he/she has made.
+\end{itemize}
+
+\textbf{\uline{TERM}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/term-of-agreement}{This
+  Agreement} shall be effective on the date of signing this Agreement
+  (hereinafter referred to as the ``\textbf{Effective Date}'') and will
+  end on \textless{}\textbf{Term End Date}\textgreater{}.
+\item
+  Upon the end of the term of the Agreement, this Agreement will not be
+  automatically renewed for a new term.
+\end{itemize}
+
+\textbf{\uline{TERMINATION}}
+
+\begin{itemize}
+\item
+  This Agreement may be terminated in case the following occurs:
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Immediately in case one of the Parties breaches this Agreement.
+\item
+  At any given time by providing a written notice to the other party
+  \textless{}\textbf{Notice Period for Termination Days}\textgreater{} days prior to terminating the Agreement.
+\end{enumerate}
+
+\textbf{\uline{RELATIONSHIP BETWEEN THE PARTIES}}
+
+\begin{itemize}
+\item
+  Hereby, the Parties agree that the Consultant in this Agreement is an
+  independent contractor where the Consultant provides the services
+  hereunder and acts as an independent contractor.
+\item
+  Under no circumstances shall the Consultant be considered an employee.
+\item
+  Whereas, this Agreement does not create any other partnership between
+  the Parties.
+\end{itemize}
+
+\textbf{\uline{EXCLUSIVITY}}
+
+\begin{itemize}
+\item
+  The Parties agree and understand that this Agreement is not exclusive
+  and that the Parties are entitled to enter into other similar
+  agreements with other parties.
+\end{itemize}
+
+\textbf{\uline{OWNERSHIP}}
+
+\begin{itemize}
+\item
+  The Parties agree that all work created by the Consultant in terms of
+  him/her performing the services will remain the exclusive property of
+  the Client, who can use it without any restrictions.
+\end{itemize}
+
+\textbf{\uline{CONFIDENTIALITY}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/confidentiality-clause}{All
+  terms} and conditions of this Agreement and any materials provided
+  during the term of the Agreement must be kept confidential by the
+  Consultant, unless the disclosure is required pursuant to process of
+  law.
+\item
+  Disclosing or using this information for any purpose beyond the scope
+  of this Agreement, or beyond the exceptions set forth above, is
+  expressly forbidden without the prior consent of the Client.
+\end{itemize}
+
+\textbf{\uline{DISPUTE RESOLUTION}}
+
+\begin{itemize}
+\item
+  Any dispute or difference whatsoever arising out of or in connection
+  with this Agreement shall be submitted to \textless{}\textbf{Arbitration/mediation/negotiation}\textgreater{} in
+  accordance with, and subject to the laws of,
+  \textless{} \textbf{Governing Law} \textgreater.
+\end{itemize}
+
+\textbf{\uline{GOVERNING LAW}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/governing-law}{This Agreement}
+  shall be governed by and construed in accordance with the laws
+  of\textless{}\textbf{Law} \textgreater.
+\end{itemize}
+
+\textbf{\uline{SEVERABILITY}}
+
+\begin{itemize}
+\item
+  In an event where any provision of this Agreement is found to be void
+  and unenforceable by a court of competent jurisdiction, then the
+  remaining provisions will remain to be enforced in accordance with the
+  Parties' intention.
+\end{itemize}
+
+\textbf{\uline{ENTIRE AGREEMENT}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/entire-agreement}{This
+  Agreement} contains the entire agreement and understanding among the
+  Parties hereto with respect to the subject matter hereof, and
+  supersedes all prior agreements, understandings, inducements and
+  conditions, express or implied, oral or written, of any nature
+  whatsoever with respect to the subject matter hereof. The express
+  terms hereof control and supersede any course of performance and/or
+  usage of the trade inconsistent with any of the terms hereof.
+\end{itemize}
+
+\textbf{\uline{AMENDMENTS}}
+
+\begin{itemize}
+\item
+  The Parties agree that any amendments made to this Agreement must be
+  in writing and they must be signed by both Parties to this Agreement.
+\item
+  As such, any amendments made by the Parties will be applied to this
+  Agreement.
+\end{itemize}
+
+\textbf{\uline{SIGNATURE AND DATE}}
+
+\begin{itemize}
+\item
+  The Parties hereby agree to the terms and conditions set forth in this
+  Agreement and such is demonstrated throughout by their signatures
+  below:
+\end{itemize}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5022}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4978}}@{}}
+\toprule()
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+CLIENT\\
+\strut \\
+Name: \textless{}\textbf{Client's Name}\textgreater{}
+
+Signature: \textless{}\textbf{Client's Signature}\textgreater{}
+
+Date: \textless{}\textbf{Date}\textgreater{}\strut
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+CONSULTANT\\
+\strut \\
+Name: \textless{}\textbf{Consultant's Name}\textgreater{}
+
+Signature: \textless{}\textbf{Consultant's Signature}\textgreater{}
+
+Date: \textless{}\textbf{Date}\textgreater{}\strut
+\end{minipage} \\
+\bottomrule()
+\end{longtable}
+
+\end{document}

@@ -1,0 +1,310 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[normalem]{ulem}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\textbf{MARKETING AGREEMENT}
+
+\textbf{\uline{PARTIES}}
+
+\begin{itemize}
+\item
+  This Marketing Agreement (hereinafter referred to as the "Agreement")
+  is entered into on \textless{}\textbf{Effective Date}\textgreater{}
+  (the "Effective Date") by and between \textless{}\textbf{Clients
+  Name}\textgreater{} (hereinafter referred to as the "Client") with an
+  address of \textless{}\textbf{Clients Address}\textgreater, and
+  \textless{}\textbf{Marketers Name}\textgreater{} (hereinafter referred
+  to as the "Marketer") with an address of \textless{}\textbf{Marketers
+  Address}\textgreater{} (collectively referred to as the "Parties").
+\end{itemize}
+
+\textbf{\uline{SERVICES PROVIDED}}
+
+\begin{itemize}
+\item
+  Hereby, the Marketer agrees to provide the services enlisted below
+  (hereinafter referred to as the ``\textbf{Services}''):
+\end{itemize}
+
+\begin{enumerate}
+\item
+  Social media marketing strategy development.
+\item
+  Content creation for social media platforms.
+\item
+  Performance analysis and reporting.
+\item
+  Paid advertising campaign management.
+\item
+  Search engine optimization (SEO) services.
+\end{enumerate}
+
+\begin{quote}
+The Parties agree that the Services must be completed by
+\textless{}\textbf{Completion Date}\textgreater.
+\end{quote}
+
+\textbf{\uline{PAYMENT AND FEES}}
+
+\begin{itemize}
+\item
+  The Parties agree that the total cost of the Services will be
+  \textless{}\textbf{Total Cost}\textgreater.
+\item
+  More specifically, \textless{}\textbf{Percentage or
+  Cost}\textgreater{} will be paid at the signing of this Agreement, and
+  \textless{}\textbf{Percentage or Amount}\textgreater{} will be paid at
+  completion.
+\item
+  The Parties agree that the Marketer will provide an invoice to the
+  Client every \textless Frequency\textgreater{} days upon the
+  completion of the Services.
+\item
+  The Marketer agrees to obtain consent from the Client prior to making
+  the purchase if an expense is over \textless{}\textbf{Threshold
+  Amount}\textgreater.
+\item
+  The Parties agree that the means of payment will be via
+  \textless{}\textbf{Payment Method}\textgreater.
+\end{itemize}
+
+\textbf{\uline{TERM}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/term-of-agreement}{This
+  Agreement} shall be effective on the date of signing this Agreement
+  (hereinafter referred to as the ``\textbf{Effective Date}''). It will
+  end on \textless{}\textbf{End Date\textgreater.}
+\end{itemize}
+
+\textbf{\uline{TERMINATION}}
+
+\begin{itemize}
+\item
+  This Agreement may be terminated if the following occurs:
+\end{itemize}
+
+\begin{enumerate}
+\item
+  This Agreement will be terminated immediately if one of the Parties
+  breaches this Agreement. More specifically, it will also be terminated
+  if one of the Parties breaches a condition set forth in this Agreement
+  without amending it within a period of \textbf{\textless Time
+  Period\textgreater.}
+\item
+  This Agreement can be terminated at any given time by providing a
+  written notice to the other party \textbf{\textless Number of
+  Days\textgreater{}} days prior to terminating the Agreement.
+\item
+  This Agreement will automatically be terminated when both Parties
+  complete their obligations.
+\end{enumerate}
+
+\textbf{\uline{CONFIDENTIALITY}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/confidentiality-clause}{All
+  terms} and conditions of this Agreement (and any confidential
+  information provided by the Client to the Marketer or vice versa)
+  during the term of the Agreement must be kept confidential, unless the
+  disclosure is required pursuant to process of law.
+\item
+  Disclosing or using this information for any purpose beyond the scope
+  of this Agreement (or beyond the exceptions set forth above) is
+  expressly forbidden without the prior consent of the Parties.
+\end{itemize}
+
+\begin{itemize}
+\item
+  The Parties' obligation to maintain confidentiality will survive
+  termination of this Agreement and remain in effect indefinitely.
+\end{itemize}
+
+\textbf{\uline{RELATIONSHIP BETWEEN PARTIES}}
+
+\begin{itemize}
+\item
+  Hereby, the Parties agree that the Marketer in this Agreement is an
+  independent contractor, as he/she provides the services hereunder and
+  acts as an independent contractor.
+\item
+  The Marketer shall not be considered an employee under any
+  circumstances.
+\item
+  This Agreement does not create any other partnership between the
+  Parties.
+\item
+  This Agreement is an Agreement that is not based on exclusivity.
+  Hence, the Parties are entitled to enter into other Agreements with
+  other parties.
+\end{itemize}
+
+\textbf{\uline{OWNERSHIP}}
+
+\begin{itemize}
+\item
+  The Parties agree that all products created by the Marketer will
+  remain the exclusive property of the Client, as long as it is relevant
+  to the performance of the Services set forth in this Agreement.
+\end{itemize}
+
+\textbf{\uline{INTELLECTUAL PROPERTY}}
+
+\begin{itemize}
+\item
+  The Marketer agrees that any intellectual property provided to him/her
+  by the Client will remain the sole property of the Client, including
+  (but not limited to) copyrights, patents, trade secret rights, and
+  other intellectual property rights associated with any ideas,
+  concepts, techniques, inventions, processes, works of authorship,
+  Confidential Information, or trade secrets.
+\item
+  The Marketer will refrain from using such intellectual property upon
+  the termination of this Agreement.
+\end{itemize}
+
+\textbf{\uline{LIMITATION OF LIABILITY}}
+
+\begin{itemize}
+\item
+  Under no circumstances will either party be liable for any indirect,
+  special, consequential, or punitive damages (including lost profits)
+  arising out of or relating to this Agreement or the transactions it
+  contemplates (including breach of contract, tort, negligence, or other
+  form of action)---if said damage is the direct result of one of the
+  party's negligence or breach.
+\end{itemize}
+
+\textbf{\uline{AMENDMENTS}}
+
+\begin{itemize}
+\item
+  The Parties agree that any amendments made to this Agreement must be
+  made in writing and signed by both Parties to this Agreement.
+\item
+  As such, any amendments made by the Parties will be applied to this
+  Agreement.
+\end{itemize}
+
+\textbf{\uline{ASSIGNMENT}}
+
+\begin{itemize}
+\item
+  The Parties hereby agree not to assign any of the responsibilities in
+  this Agreement to a third party unless consented by both Parties in
+  writing.
+\end{itemize}
+
+\textbf{\uline{ALTERNATIVE DISPUTE RESOLUTION}}
+
+\begin{itemize}
+\item
+  Any dispute or difference whatsoever arising out of or in connection
+  with this Agreement shall be submitted to
+  \textless{}\textbf{Arbitration/mediation/negotiation}\textgreater{}
+  (Circle one), in accordance with and subject to the laws of
+  \textbf{\textless{} Jurisdiction\textgreater.}
+\end{itemize}
+
+\textbf{\uline{ENTIRE AGREEMENT}}
+
+\begin{itemize}
+\item
+  \href{https://www.lawinsider.com/clause/entire-agreement}{This
+  Agreement} contains the entire agreement and understanding among the
+  Parties hereto, with respect to the subject matter hereof. It
+  supersedes all prior agreements, understandings, inducements, and
+  conditions (express, implied, oral, written, or of any nature
+  whatsoever with respect to the subject matter hereof). The express
+  terms hereof control and supersede any course of performance and/or
+  usage of the trade inconsistent with any of the terms hereof.
+\end{itemize}
+
+\textbf{\uline{SEVERABILITY}}
+
+\begin{itemize}
+\item
+  In an event when any provision of this Agreement is found to be void
+  and unenforceable by a court of competent jurisdiction, the remaining
+  provisions will still be enforced, in accordance with the Parties'
+  intention.
+\end{itemize}
+
+\textbf{\uline{SIGNATURE AND DATE}}
+
+\begin{itemize}
+\item
+  The Parties hereby agree to the terms and conditions set forth in this
+  Agreement. This agreement is demonstrated by their signatures below:
+\end{itemize}
+
+\textbf{MARKETER}
+
+Name: \textless{}\textbf{Marketers Name\textgreater{}}
+
+Signature: \textbf{\textless Marketers Signature\textgreater{}}
+
+Date: \textbf{\textless Date\textgreater{}}
+
+\textbf{CLIENT}
+
+Name\textbf{: \textless Clients Name\textgreater{}}
+
+Signature: \textbf{\textless Clients Signature\textgreater{}}
+
+Date: \textbf{\textless Date\textgreater{}}
+
+\end{document}
